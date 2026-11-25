@@ -157,8 +157,7 @@ homeopathy-platform/
 │   ├── product-detail.png
 │   └── dashboard.png
 ├── architecture/
-│   ├── system-overview.md
-│   └── diagrams/
+│   └── system-overview.md
 └── code-samples/
     ├── payment-workflow/
     ├── database-access/
