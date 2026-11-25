@@ -159,9 +159,7 @@ homeopathy-platform/
 ├── architecture/
 │   └── system-overview.md
 └── code-samples/
-    ├── payment-workflow/
-    ├── database-access/
-    └── application-architecture/
+    └── ...
 ```
 
 The examples are selected and sanitized to demonstrate the engineering concepts behind the project.
