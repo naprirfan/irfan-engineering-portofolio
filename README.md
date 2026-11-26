@@ -26,8 +26,9 @@ The project includes a customer-facing storefront, internal dashboard, backend A
 **Engineering highlights:**
 - Full-stack application architecture using Next.js, React, TypeScript, and Node.js
 - Shared data model across multiple applications
-- Order and payment lifecycle management
-- Transactional updates and reliable handling of payment events
+- Guest checkout and order lifecycle management
+- Payment confirmation through receipt uploads and internal verification
+- Transactional order and payment status updates
 - Authentication and role-based access control
 - Deployment and maintenance on Linux servers
 
@@ -44,6 +45,7 @@ The challenge is to make deeply nested information searchable and useful without
 - Search across nested structures
 - Database and query design
 - User experience for navigating complex information
+- Connecting repertory data with case analysis workflows
 
 [Explore the project](./projects/repertory-search/)
 
@@ -62,6 +64,41 @@ The work involved frontend service separation, shared configuration, reusable co
 As part of the frontend core team, I helped establish frontend standards and build reusable React components that other engineering teams could adopt.
 
 The work focused on improving consistency and enabling incremental modernization of an existing application.
+
+## Fun Projects & Experiments
+
+A collection of smaller projects I've built out of curiosity and for the enjoyment of experimenting with code. These are not production applications, but they demonstrate my interest in interactive programming, algorithms, and frontend development.
+
+### 1. Simon Game
+
+[Play on CodePen](https://codepen.io/naprirfan/pen/BKKEEN)
+
+A browser-based implementation of the classic Simon memory game. Players must remember and reproduce an increasingly long sequence of colors and sounds.
+
+**Highlights:**
+- Random sequence generation
+- Audio and visual feedback
+- Increasing difficulty
+- Game state management
+- Strict and regular game modes
+
+**Technologies:** JavaScript, jQuery, Sass, HTML
+
+### 2. Conway's Game of Life — React
+
+[Play on CodePen](https://codepen.io/naprirfan/pen/EKZdvm)
+
+An interactive implementation of Conway's Game of Life, a cellular automaton where each cell's next state is determined by the states of its neighboring cells.
+
+**Highlights:**
+- Interactive grid with manually editable cells
+- Simulation controls: play, pause, and reset
+- Random initial population
+- Generation counter
+- Wraparound grid boundaries
+- React-based simulation and rendering
+
+**Technologies:** React, JavaScript, PubSub.js, Sass, HTML
 
 ## What You'll Find Here
 
@@ -82,7 +119,7 @@ Some projects are private or contain proprietary code. In those cases, the repos
 - Frontend architecture and React
 - TypeScript and full-stack development
 - Database design and query performance
-- Reliable payment and distributed workflows
+- Reliable application and payment workflows
 - Production debugging and observability
 - Developer experience and maintainable code
 - Practical applications of LLMs and coding agents
